@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de exercício HTML e JS com formulário interativo.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&amp;family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <title>Agenda de Contatos</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1><a href="https://github.com/nikolasbrp" target="_blank" aria-label="Link para o GitHub" title="Link para o GitHub"><span class="logo-color">&lt;</span>n<span class="logo-color">&gt;</span></a></h1>
+            <ul>
+                <li><a href="#form-contato">Pratique JS</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-form">    
+            <h2>Agenda de Contatos</h2>       
+            <form id="form-contato">                
+                <input type="text" id="nome-contato" placeholder="Nome do contato" required>
+                <input type="tel" id="telefone-contato" placeholder="Telefone do contato" required>
+                <button type="submit">Adicionar +</button>
+            </form>
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody id="table-contato">                    
+                </tbody>
+                <tfoot>
+                    <tr id="table-rodape">                        
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© Níkolas Bánkuti - Todos os direitos reservados - 2024</p>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

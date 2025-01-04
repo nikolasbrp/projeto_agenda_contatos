@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #181c24;
+    color: #ecf0f1;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+header ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+header li {
+    background-color: #365ee4;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+header li:hover {
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.logo-color {
+    color: #365ee4;
+}
+
+main {
+    padding: 24px 16px;
+    min-height: 440px;
+}
+
+main h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.container-form {
+    max-width: 640px;
+    margin: 80px auto;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+form input,
+form textarea,
+form button {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input:focus,
+form textarea:focus,
+form button:focus {
+    outline: none;
+    border-color: #365ee4;
+    box-shadow: 0 0 4px rgba(38, 71, 219, 0.5);
+}
+
+form button {
+    background-color: #365ee4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #294ab6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    border-bottom: 2px solid #ccc;
+    font-size: 18px;
+}
+
+tbody td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#table-rodape {
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+footer {
+    background-color: #181c24;
+    color: #fff;
+    text-align: center;
+    padding: 35px 16px;
+}
